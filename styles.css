@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#app {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 50px 0 0 150px;
+}
+
+.number-container {
+    margin-left: 150px;
+    width: fit-content;
+}
+
+#converted-temperature,
+#converted-weight,
+#converted-length,
+#converted-time {
+    background: none;
+    color: black;
+    border: none;
+    display: inline-block;
+    width: 50px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.dropdown-container {
+    margin-left: 150px;
+    width: fit-content;
+}
+
+#temperatureInput,
+#weightInput,
+#lengthInput,
+#timeInput {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 50px;
+    text-align: center;
+}
+
+/* select element */
+#fromTemperature,
+#fromWeight,
+#fromLength,
+#fromTime {
+    border: none;
+    width: 130px;
+    scrollbar-width: none;
+    cursor: pointer;
+}
+
+/* select element */
+#toTemperature,
+#toWeight,
+#toLength,
+#toTime {
+    margin-left: 40px;
+    border: none;
+    width: 130px;
+    scrollbar-width: none;
+    cursor: pointer;
+}
+
+#thermometer {
+    width: 200px;
+    margin-left: 200px;
+}
+
+.button-container {
+    margin-left: 250%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-container button {
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #FFC000;
+    color: #FFF5EE;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#weight {
+    width: 150px;
+    height: 100px;
+    margin-left: 220px;
+}
+
+#ruler {
+    width: 150px;
+    height: 80px;
+    margin-left: 225px;
+}
+
+.error-message {
+    color: red;
+    margin: 20px 0 0 150px;
+    width: fit-content;
+    font-size: 16px;
+}
+
+/* fjerner pilene inni input*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.showNum {
+    display: inline-block;
+}
+
+#clock {
+    width: 60px;
+    height: 60px;
+    margin-left: 270px;
+}
